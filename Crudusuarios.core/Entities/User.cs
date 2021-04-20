@@ -13,6 +13,6 @@ namespace Crudusuarios.core.Entities
         public int edad { get; set; }
         public string jerarquia { get; set; }
 
-
+        public virtual Jerarquia jerarquianavegacion { get; set; }
     }
 }
