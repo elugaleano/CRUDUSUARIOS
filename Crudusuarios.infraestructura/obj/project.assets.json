@@ -8,24 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Ailu.x\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.infraestructura\\Crudusuarios.infraestructura.csproj",
+      "projectUniqueName": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\Crudusuarios.infraestructura\\Crudusuarios.infraestructura.csproj",
       "projectName": "Crudusuarios.infraestructura",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.infraestructura\\Crudusuarios.infraestructura.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.infraestructura\\obj\\",
+      "projectPath": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\Crudusuarios.infraestructura\\Crudusuarios.infraestructura.csproj",
+      "packagesPath": "C:\\Users\\Ailu.x\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\Crudusuarios.infraestructura\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Ailu.x\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
