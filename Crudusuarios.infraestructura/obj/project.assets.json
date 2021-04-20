@@ -1,26 +1,71 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "CRUDUSUARIOS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CRUDUSUARIOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDUSUARIOS.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Crudusuarios.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CRUDUSUARIOS": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Crudusuarios.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Crudusuarios.core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CRUDUSUARIOS/1.0.0": {
+      "type": "project",
+      "path": "../CRUDUSUARIOS/CRUDUSUARIOS.csproj",
+      "msbuildProject": "../CRUDUSUARIOS/CRUDUSUARIOS.csproj"
+    },
+    "Crudusuarios.core/1.0.0": {
+      "type": "project",
+      "path": "../Crudusuarios.core/Crudusuarios.core.csproj",
+      "msbuildProject": "../Crudusuarios.core/Crudusuarios.core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Crudusuarios.core >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Ailu.x\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\Crudusuarios.infraestructura\\Crudusuarios.infraestructura.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.infraestructura\\Crudusuarios.infraestructura.csproj",
       "projectName": "Crudusuarios.infraestructura",
-      "projectPath": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\Crudusuarios.infraestructura\\Crudusuarios.infraestructura.csproj",
-      "packagesPath": "C:\\Users\\Ailu.x\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\Crudusuarios.infraestructura\\obj\\",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.infraestructura\\Crudusuarios.infraestructura.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.infraestructura\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Ailu.x\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +78,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.core\\Crudusuarios.core.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.core\\Crudusuarios.core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
