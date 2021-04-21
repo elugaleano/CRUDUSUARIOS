@@ -1,0 +1,4 @@
+C:\Users\Ailu.x\source\repos\CRUDUSUARIO\Crudusuarios.core\bin\Debug\netcoreapp3.1\CRUDUSUARIOS.dll
+C:\Users\Ailu.x\source\repos\CRUDUSUARIO\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.csprojAssemblyReference.cache
+C:\Users\Ailu.x\source\repos\CRUDUSUARIO\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.AssemblyInfoInputs.cache
+C:\Users\Ailu.x\source\repos\CRUDUSUARIO\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.AssemblyInfo.cs

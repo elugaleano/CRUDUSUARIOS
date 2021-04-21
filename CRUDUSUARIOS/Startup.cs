@@ -26,6 +26,8 @@ namespace CRUDUSUARIOS
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            var connection = @"Server=localhost;Database=CRUD;Trusted_Connection=True;MultipleActiveResultSets=true";
+            //services.AddDbContext<CRAMSContext>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
