@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.core\\Crudusuarios.core.csproj": {}
+    "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\Crudusuarios.core\\Crudusuarios.core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.core\\Crudusuarios.core.csproj": {
+    "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\Crudusuarios.core\\Crudusuarios.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.core\\Crudusuarios.core.csproj",
+        "projectUniqueName": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\Crudusuarios.core\\Crudusuarios.core.csproj",
         "projectName": "Crudusuarios.core",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.core\\Crudusuarios.core.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\Crudusuarios.core\\obj\\",
+        "projectPath": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\Crudusuarios.core\\Crudusuarios.core.csproj",
+        "packagesPath": "C:\\Users\\Ailu.x\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\Crudusuarios.core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ailu.x\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj": {
-                "projectPath": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj"
+              "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj": {
+                "projectPath": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj"
               }
             }
           }
@@ -47,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,21 +68,17 @@
         }
       }
     },
-    "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj": {
+    "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj",
+        "projectUniqueName": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj",
         "projectName": "CRUDUSUARIOS",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\CRUDUSUARIOS\\obj\\",
+        "projectPath": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj",
+        "packagesPath": "C:\\Users\\Ailu.x\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ailu.x\\source\\repos\\CRUDUSUARIO\\CRUDUSUARIOS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ailu.x\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
