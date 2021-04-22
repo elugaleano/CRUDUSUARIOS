@@ -1,4 +1,5 @@
 ﻿using Crudusuarios.core.Entities;
+using Crudusuarios.infraestructura.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +23,14 @@ namespace Crudusuarios.infraestructura.Repositories
           return usuarios;
             
         }
-        
+        public void GetUserfromdatabase() 
+        {
+            var contexto = new CRUD_dbcontext();
+            contexto.User.FirstOrDefault();
+            int prueba = 1;
+            
+        } 
+
+
     }
 }
