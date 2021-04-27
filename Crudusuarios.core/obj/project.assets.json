@@ -161,19 +161,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
-      },
-      "CRUDUSUARIOS/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/CRUDUSUARIOS.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CRUDUSUARIOS.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -533,16 +520,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "CRUDUSUARIOS/1.0.0": {
-      "type": "project",
-      "path": "../CRUDUSUARIOS/CRUDUSUARIOS.csproj",
-      "msbuildProject": "../CRUDUSUARIOS/CRUDUSUARIOS.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CRUDUSUARIOS >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.5"
     ]
   },
@@ -577,11 +558,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj": {
-              "projectPath": "C:\\Users\\HP\\source\\repos\\CRUDUSUARIOS\\CRUDUSUARIOS\\CRUDUSUARIOS.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

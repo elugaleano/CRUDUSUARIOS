@@ -8,5 +8,14 @@
     <Folder Include="NewFolder\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Crudusuarios.core\Crudusuarios.core.csproj" />
+    <ProjectReference Include="..\Crudusuarios.infraestructura\Crudusuarios.infraestructura.csproj" />
+  </ItemGroup>
+
 
 </Project>
