@@ -29,6 +29,11 @@ namespace CRUDUSUARIOS
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDbContext<CRUD_dbcontext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("CRUD")));
+            //Resolvemos nuestras dependencias
+            //Le Decimos Primero que cada vez que se llame a IUserRepository entregaremos una Intancia de UserRepository
+            //Yo podria cambiar la clase userRepository por una nueva y el cambio no afectaria al resto del codigo debiedo a que usamos interfaces y no instancias concretas 
+            services.AddControllers();
             var connection = @"Server=localhost;Database=CRUD;Trusted_Connection=True;MultipleActiveResultSets=true";
             services.AddDbContext<CRUD_dbcontext>(options => options.UseSqlServer(connection));
         }
