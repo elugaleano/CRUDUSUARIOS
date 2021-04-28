@@ -23,12 +23,11 @@ namespace Crudusuarios.infraestructura.Repositories
           return usuarios;
             
         }
-        public void GetUserfromdatabase() 
+        public User GetUserfromdatabase() 
         {
             var contexto = new CRUD_dbcontext();
-            contexto.User.FirstOrDefault();
-            int prueba = 1;
-            
+            var usuario = contexto.User.FirstOrDefault();
+            return usuario;
         } 
 
 

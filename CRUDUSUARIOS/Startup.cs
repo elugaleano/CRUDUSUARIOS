@@ -34,8 +34,6 @@ namespace CRUDUSUARIOS
             //Le Decimos Primero que cada vez que se llame a IUserRepository entregaremos una Intancia de UserRepository
             //Yo podria cambiar la clase userRepository por una nueva y el cambio no afectaria al resto del codigo debiedo a que usamos interfaces y no instancias concretas 
             services.AddControllers();
-            var connection = @"Server=localhost;Database=CRUD;Trusted_Connection=True;MultipleActiveResultSets=true";
-            services.AddDbContext<CRUD_dbcontext>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
