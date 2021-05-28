@@ -10,3 +10,14 @@ C:\Users\HP\source\repos\CRUDUSUARIOS\Crudusuarios.core\obj\Debug\netcoreapp3.1\
 C:\Users\HP\source\repos\CRUDUSUARIOS\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\CRUDUSUARIOS\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.dll
 C:\Users\HP\source\repos\CRUDUSUARIOS\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.pdb
+C:\Users\Ailux\Source\Repos\CRUDUSUARIOS\Crudusuarios.core\bin\Debug\netcoreapp3.1\Crudusuarios.core.deps.json
+C:\Users\Ailux\Source\Repos\CRUDUSUARIOS\Crudusuarios.core\bin\Debug\netcoreapp3.1\Crudusuarios.core.runtimeconfig.json
+C:\Users\Ailux\Source\Repos\CRUDUSUARIOS\Crudusuarios.core\bin\Debug\netcoreapp3.1\Crudusuarios.core.runtimeconfig.dev.json
+C:\Users\Ailux\Source\Repos\CRUDUSUARIOS\Crudusuarios.core\bin\Debug\netcoreapp3.1\Crudusuarios.core.dll
+C:\Users\Ailux\Source\Repos\CRUDUSUARIOS\Crudusuarios.core\bin\Debug\netcoreapp3.1\Crudusuarios.core.pdb
+C:\Users\Ailux\Source\Repos\CRUDUSUARIOS\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.AssemblyInfoInputs.cache
+C:\Users\Ailux\Source\Repos\CRUDUSUARIOS\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.AssemblyInfo.cs
+C:\Users\Ailux\Source\Repos\CRUDUSUARIOS\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.csproj.CoreCompileInputs.cache
+C:\Users\Ailux\Source\Repos\CRUDUSUARIOS\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.dll
+C:\Users\Ailux\Source\Repos\CRUDUSUARIOS\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.pdb
+C:\Users\Ailux\Source\Repos\CRUDUSUARIOS\Crudusuarios.core\obj\Debug\netcoreapp3.1\Crudusuarios.core.genruntimeconfig.cache

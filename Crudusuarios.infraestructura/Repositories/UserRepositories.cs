@@ -1,34 +1,35 @@
-﻿using Crudusuarios.core.Entities;
-using Crudusuarios.infraestructura.Data;
+﻿using Crudusuarios.infraestructura.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Crudusuarios.infraestructura.Repositories
 {
     public class UserRepositories
     {
         //ESTO ES DINAMYCS
-        public IEnumerable<User> getUsers() 
-        {
-            var usuarios = Enumerable.Range(1, 10).Select(x => new User
-            {
-                nombre = "Eluhuei",
-                apellido = "Galeano",
-                edad = 25
+        //public IEnumerable<Usuario> getUsers()
+        //{
+        //    var usuarios = Enumerable.Range(1, 10).Select(x => new Usuario
+        //    {
+        //        nombre = "Eluhuei",
+        //        apellido = "Galeano",
+        //        edad = 25
 
-                //LA FK QUEDA AFUERA 
-            });
-          return usuarios;
-            
-        }
-        public User GetUserfromdatabase() 
+        //        //LA FK QUEDA AFUERA 
+        //    });
+        //    return usuarios;
+
+        //}
+        public async Task <Usuario> GetUserfromdatabase()
         {
-            var contexto = new CRUD_dbcontext();
-            var usuario = contexto.User.FirstOrDefault();
+            var contexto = new CRUDContext();
+            var usuario = await contexto.Usuarios.FirstOrDefaultAsync();
             return usuario;
-        } 
+        }
 
 
     }

@@ -1,4 +1,3 @@
-using Crudusuarios.infraestructura.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -12,7 +11,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-
+using Crudusuarios.infraestructura.Data;
+using Microsoft.OpenApi.Models;
 
 namespace CRUDUSUARIOS
 {
@@ -29,11 +29,15 @@ namespace CRUDUSUARIOS
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<CRUD_dbcontext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("CRUD")));
+            services.AddDbContext<CRUDContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("CRUD")));
             //Resolvemos nuestras dependencias
             //Le Decimos Primero que cada vez que se llame a IUserRepository entregaremos una Intancia de UserRepository
             //Yo podria cambiar la clase userRepository por una nueva y el cambio no afectaria al resto del codigo debiedo a que usamos interfaces y no instancias concretas 
             services.AddControllers();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CRUDUSUARIOS", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +46,8 @@ namespace CRUDUSUARIOS
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SofasStockApi v1"));
             }
 
             app.UseHttpsRedirection();

@@ -15,14 +15,16 @@ namespace CRUDUSUARIOS.Controllers
     public class UserController : ControllerBase
     {
         [HttpGet("getusers")]
-        public async Task <IActionResult> getusers()
+        public async Task<IActionResult> getusers()
         {
-            var prueba = new UserRepositories();
-            var prueba2 = prueba.GetUserfromdatabase();
 
-            return Ok(null); 
+            var repositorioUser = new UserRepositories();
+            var response = repositorioUser.GetUserfromdatabase();
+
+            return Ok(response);
 
         }
 
     }
+
 }
